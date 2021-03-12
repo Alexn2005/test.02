@@ -1,0 +1,9 @@
+x = int(input('Insert a number you want to add: '))
+y = int(input('Insert another number you want to add: '))
+
+
+def adding_two_numbers(x, y):
+    return x + y
+
+
+print(adding_two_numbers(x, y))
